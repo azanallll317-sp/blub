@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        body{background-color: rgb(167, 145, 145);}
+        .h1{background-color: rgb(126, 136, 126);
+            color: whitesmoke;
+        }
+        .pera{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="h1"> Document Object Model (DOM) </h1>
+
+    <div>
+        <p class="pera" id="p1"> pera 1</p>
+        <p class="pera" id="p2"> pera 2</p>
+        <p class="pera" id="p3"> pera 3</p>
+        <p class="pera" id="p4"> pera 4</p>
+
+    </div>
+
+
+<img id="img" src="offblub.png" width="200px" >
+<br><br>
+<button onclick="offblub()" class="btn">OFF</button>
+
+<button onclick="onblub()" class="btn">ON</button>
+<br><br>
+
+
+
+<h2>Create div with JavaScript</h2>
+<label for="">Enter Color Name</label>
+<!-- <br><br> -->
+
+<input id="color" type="text" placeholder="Ex: red green blue">
+<!-- <br><br> -->
+<label for="">Enter Width</label>
+<!-- <br><br> -->
+<input id="width" type="number" placeholder="Ex: 100, 200, 300">
+<!-- <br><br> -->
+<label for="">Enter Height</label>
+<!-- <br><br> -->
+<input id="heigth" type="number"placeholder="Ex: 100, 200, 300">
+<!-- <br><br> -->
+<button onclick="creatediv()">Create Div</button>
+<div id="div"></div>
+    <script src="dom.js"></script>
+</body>
+</html>
